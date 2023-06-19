@@ -2,7 +2,7 @@ namespace FundamentalUpskilling;
 
 public class Operator
 {
-    public static void Main(string[] arg)
+    public void Main(string[] arg)
     {
         /*
         Aritmatic Operator 
