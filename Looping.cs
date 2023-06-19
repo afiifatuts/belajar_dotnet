@@ -2,7 +2,7 @@ namespace FundamentalUpskilling;
 
 public class Looping 
 {
-    public static void Main(string[] args)
+    public void Main(string[] args)
     {
         /*
         C# itu ada 3 (for loop, while, do while)
