@@ -2,7 +2,7 @@ namespace FundamentalUpskilling;
 
 public class Input 
 {
-    public static void Main(string[] args)
+    public void Main(string[] args)
     {
         //untuk melakukan input dari user di C# kita bisa menggunakan object Console.ReadLine()
 
