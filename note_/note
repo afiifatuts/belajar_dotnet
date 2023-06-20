@@ -1,0 +1,79 @@
+// int number = 10;//eksplisit
+// var number2 = 10;//inplisit
+
+/*
+       Number data type 
+       tipe data number dibagi menjadi 2: 
+       *Integer Types :
+       -byte 8bit 
+       -short 16bit 
+       -long 64bit
+       *floating point type:
+       -float32 bit 
+       -double 64bit decimal 128bit 
+       */
+
+/*
+       Array adalah tipe data untuk menyimpan lebih dari satu value
+       array index 0 dan elemennya mulai 1
+       */
+
+/*
+C# itu ada 3 (for loop, while, do while)
+for -> counted loop
+while, do-while -> uncounted loop
+*/
+
+//   access modifier static/non-static returnType(void/tipe data apapun) NamaMethod(parameter)
+//     {
+//         //body method
+//     }
+
+//     note: static method hanya bisa dipanggil sesama static method, jika tidak ada maka bisa diakses dengan membuat objectnya
+//     terlebih dahulu
+
+/*
+ class -> blueprint
+ object -> respresentasi dari class/blueprint yang kita buat
+ dengan oop kita bisa membuat kode menjadi reusable
+
+ attribute/propery -car : kaca, ban, warna, bahan bakar, mesin
+ method -car: berjalan, mengisi bensin
+
+jika membuat atribut di C# tidak menggunakan access modifier dia tidak bisa diakses
+
+ada 4 pilar oop:
+- Encapsulation (bungkus)
+- Polymprphism (banyak bentuk)
+- Abstraction
+- Inheritance (pewarisan)
+
+access modifier 4
+- public -> Bisa diakses dimanapun class apapun file apapun
+- privat -> private hanya bisa diaksess oleh dirinya sendiri
+- protected -> bisa diakses di devide/child/turunan atau dirinya sendiri (berhubungan dengan inheritance)
+- internal -> hanya bisa diakses di project yang sama
+
+*/
+
+//constructor = pembangun saat object dibuat 
+// ->method yang namanya itu sama dengan nama class, dan method
+//constructor itu akan dipanggil atau dijalankan saat kita instance object
+
+/*
+Polymorphism -> poly morphism : banyak bentuk, method overload itu juga termasuk banyak bentuk
+Kita bisa membuat method dengan nama yang sama namun parameternya yg berbeda
+
+Syarat Method Overload :
+- Membuat nama method yang sama parameter berbeda
+- Tidak untuk parameter sama nama return type berbeda
+- Bisa membuat jumlah parameter yang sama namun tipe data berbeda
+
+apakah constructor termasuk polymorphism? iya
+karena dia method constructor, class dan parameternya berubah berubah
+
+overloading -> termasuk polymorphism menuliskan method dengan nama yg sama namun parameter berbeda
+
+overwriting -> menuliskan method ulang yang sama dengan parennya (kita overwrite)
+
+*/

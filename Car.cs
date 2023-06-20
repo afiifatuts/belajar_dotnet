@@ -80,39 +80,39 @@ public class Car
 
 }
 
-public class Program
-{
-    public  void Main(string[] args)
-    {
-        //object - instance object - membuat object
-        //Car ayla = new Car("red", "toyota", 20);
-        //ayla.Fuel = 20;
-        //Console.WriteLine(ayla.GetColor());
-        // Console.WriteLine(ayla.Brand);
-        // Console.WriteLine(ayla.Fuel);
+// public class Program
+// {
+//     public  void Main(string[] args)
+//     {
+//         //object - instance object - membuat object
+//         //Car ayla = new Car("red", "toyota", 20);
+//         //ayla.Fuel = 20;
+//         //Console.WriteLine(ayla.GetColor());
+//         // Console.WriteLine(ayla.Brand);
+//         // Console.WriteLine(ayla.Fuel);
 
-        //implisit
-        //var supra = new Car("black", "toyota", 25);
-        //supra.Fuel = 25;
-        //Console.WriteLine(supra.GetColor());
-        // Console.WriteLine(supra.Brand);
-        // Console.WriteLine(supra.Fuel);
+//         //implisit
+//         //var supra = new Car("black", "toyota", 25);
+//         //supra.Fuel = 25;
+//         //Console.WriteLine(supra.GetColor());
+//         // Console.WriteLine(supra.Brand);
+//         // Console.WriteLine(supra.Fuel);
 
-        //direct access - kurang bagus
-        var rush = new Car
-        {
-            Color = "Wite",
-            Brand = "Toyota",
-            Fuel = 30
-        };
-        rush.Color = "White";
-        Console.WriteLine(rush.Color);
-        Console.WriteLine(rush.Brand);
-        Console.WriteLine(rush.Fuel);
-        // rush.Brand = "Toyota";
-        // rush.Fuel = 30;
+//         //direct access - kurang bagus
+//         var rush = new Car
+//         {
+//             Color = "Wite",
+//             Brand = "Toyota",
+//             Fuel = 30
+//         };
+//         rush.Color = "White";
+//         Console.WriteLine(rush.Color);
+//         Console.WriteLine(rush.Brand);
+//         Console.WriteLine(rush.Fuel);
+//         // rush.Brand = "Toyota";
+//         // rush.Fuel = 30;
 
-    }
+//     }
 
 
-}
+// }
