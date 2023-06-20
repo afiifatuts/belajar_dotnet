@@ -2,7 +2,7 @@ namespace FundamentalUpskilling;
 
 public class MyMethod
 {
-    public static void Main(string[] args)
+    public void Main(string[] args)
     {
         //Method bisa dibilang sebuah fungsi
         // SayHello();
