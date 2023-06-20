@@ -45,39 +45,39 @@ public class Hero
     }
 }
 
-public class Program
-{
-    public static void Main(string[] args)
-    {
-        var layla = new Hero
-        {
-            Name = "Layla",
-            Hp = 1000,
-            BaseDamage = 200
-        };
+// public class Program
+// {
+//     public static void Main(string[] args)
+//     {
+//         var layla = new Hero
+//         {
+//             Name = "Layla",
+//             Hp = 1000,
+//             BaseDamage = 200
+//         };
 
-        var hayabusa = new Hero
-        {
-            Name = "Hayabusa",
-            Hp = 1000,
-            BaseDamage = 250
-        };
+//         var hayabusa = new Hero
+//         {
+//             Name = "Hayabusa",
+//             Hp = 1000,
+//             BaseDamage = 250
+//         };
 
-        var minion = new Monster
-        {
-            Name = "Minion",
-            Hp = 600,
-            BaseDamage = 100
-        };
-        layla.Attack(minion);
-        Console.WriteLine($"now the score is {minion.Hp}");
+//         var minion = new Monster
+//         {
+//             Name = "Minion",
+//             Hp = 600,
+//             BaseDamage = 100
+//         };
+//         layla.Attack(minion);
+//         Console.WriteLine($"now the score is {minion.Hp}");
 
-        //object interaction
-        // layla.Attack(hayabusa);
-        // Console.WriteLine($"now the score is {hayabusa.Hp}");
+//         //object interaction
+//         // layla.Attack(hayabusa);
+//         // Console.WriteLine($"now the score is {hayabusa.Hp}");
 
-    }
-}
+//     }
+// }
 
 // //ternary operator
 // var number = 10;

@@ -1,0 +1,27 @@
+// anonymous function
+//         //cara pertama anonymous method
+//         var sayHello = delegate ()
+//         {
+//             Console.WriteLine("Hello World");
+//         };
+
+//         //cara kedua mirip javascript(lambda)
+//         var sayHEllo2 = (string name) =>
+//         {
+//             Console.WriteLine($"Hello, {name}");
+//         };
+
+//         sayHello();
+//         sayHEllo2("Afiif");
+
+//         CallBackExample(() =>
+//         {
+//             System.Console.WriteLine("Ini adalah callback");
+//             return true;
+//         });
+
+
+//         public static void CallBackExample(Func<bool> callback)
+//     {
+//         callback.Invoke();
+//     }
