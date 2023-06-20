@@ -2,7 +2,7 @@ namespace FundamentalUpskilling;
 
 public class MyArray
 {
-    public static void Main(string[] args)
+    public void Main(string[] args)
     {
         /*
         Array adalah tipe data untuk menyimpan lebih dari satu value
