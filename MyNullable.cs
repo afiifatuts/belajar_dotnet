@@ -2,7 +2,7 @@ namespace FundamentalUpskilling;
 
 public class MyNullable
 {
-    public static void Main(string[] args)
+    public  void Main(string[] args)
     {
         //int number = null;
         //struct punyanya microsoft yaitu Nullable<T> -> Generic
@@ -26,6 +26,18 @@ public class MyNullable
         else
         {
             Console.WriteLine("error: data kosng");
+        }
+
+        SayHello(null);
+        SayHello("Tsaani");
+    }
+
+    public  void SayHello(string? name)
+    {
+        //is, not, or, and
+        if (name is not null)
+        {
+            Console.WriteLine($"Hello, {name}");
         }
     }
 }
