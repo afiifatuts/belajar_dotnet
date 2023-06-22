@@ -30,32 +30,32 @@ public class Util
     }
 }
 
-public class Program
-{
-    public static void Main(string[] args)
-    {
-        var budi = new Person
-        {
-            Name = Util.Input("Masukkan Nama Anda")
-        };
+// public class Program
+// {
+//     public void Main(string[] args)
+//     {
+//         var budi = new Person
+//         {
+//             Name = Util.Input("Masukkan Nama Anda")
+//         };
 
-        Console.WriteLine(budi.Name);
+//         Console.WriteLine(budi.Name);
 
-        // Person.Name = "Budi";
-        // var budi = new Person();
+//         // Person.Name = "Budi";
+//         // var budi = new Person();
 
-        // Person.Name = "Andi"; //dibuat satu kali di alamat memori
-        // var andi = new Person();
-        // budi.Age = 15;
-        // andi.Age = 20;
+//         // Person.Name = "Andi"; //dibuat satu kali di alamat memori
+//         // var andi = new Person();
+//         // budi.Age = 15;
+//         // andi.Age = 20;
 
-        // Console.WriteLine(Person.Name);
-        // Console.WriteLine(budi.ToString());
-        // Console.WriteLine(andi.ToString());
+//         // Console.WriteLine(Person.Name);
+//         // Console.WriteLine(budi.ToString());
+//         // Console.WriteLine(andi.ToString());
 
 
-        
-    }
 
-    
-}
+//     }
+
+
+// }

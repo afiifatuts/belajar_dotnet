@@ -77,3 +77,8 @@
 # overwriting -> menuliskan method ulang yang sama dengan parennya (kita overwrite)
 
 # */
+
+/*
+Inheritance: pewarisan yang menurunkan attribute ataupun method di OOP
+keyword untuk inheritance di C# itu menggunakan titik dua(:)
+*/
