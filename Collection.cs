@@ -4,7 +4,7 @@ using System.Collections;
 
 public class Collection
 {
-    public static void Main(string[] args)
+    public void Main(string[] args)
     {
         /*
 
@@ -38,11 +38,6 @@ public class Collection
         Hashtable: yang menyimpan datanya berupa key dan valu
         Dictionary: menyimpan data berupa key dan value - bedanya generic
         */
-
-
-
-
-
     }
 
     private static void Sort()
@@ -95,7 +90,7 @@ public class Collection
         }
 
     }
-    public static void Hashtable()
+    private static void Hashtable()
     {
         System.Console.WriteLine("Add");
 
@@ -134,7 +129,7 @@ public class Collection
 
 
     }
-    public static void HashSet()
+    private static void HashSet()
     {
 
         var names = new HashSet<string>();
