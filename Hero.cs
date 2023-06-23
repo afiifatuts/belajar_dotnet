@@ -16,25 +16,33 @@ overloading -> termasuk polymorphism menuliskan method dengan nama yg sama namun
 
 overwriting -> menuliskan method ulang yang sama dengan parennya (kita overwrite)
 
+
+interface : adalah kontrak yang berisi method tanpa body
+
 */
 
-public class Hero
+public class Hero : IHitAble
 {
     public string Name { get; set; }
     public int Hp { get; set; }
     public int BaseDamage { get; set; }
 
     //Method overload
-    public void Attack(Hero hero)
-    {
-        Console.WriteLine($"{Name} attacked {hero.Name}");
-        hero.GetHit(BaseDamage);
-    }
+    // public void Attack(Hero hero)
+    // {
+    //    // Console.WriteLine($"{Name} attacked {hero.Name}");
+    //     hero.GetHit(BaseDamage);
+    // }
 
-    public void Attack(Monster monster)
+    // public void Attack(Monster monster)
+    // {
+    //     Console.WriteLine($"{Name} attacked {monster.Name}");
+    //     monster.GetHit(BaseDamage);
+    // }
+
+    public void Attack(IHitAble hitAble)
     {
-        Console.WriteLine($"{Name} attacked {monster.Name}");
-        monster.GetHit(BaseDamage);
+        hitAble.GetHit(BaseDamage);
     }
 
 
@@ -45,39 +53,42 @@ public class Hero
     }
 }
 
-// public class Program
-// {
-//     public static void Main(string[] args)
-//     {
-//         var layla = new Hero
-//         {
-//             Name = "Layla",
-//             Hp = 1000,
-//             BaseDamage = 200
-//         };
+public class Program
+{
+    public static void Main(string[] args)
+    {
+        IHitAble layla = new Hero
+        {
+            Name = "Layla",
+            Hp = 1000,
+            BaseDamage = 200
+        };
 
-//         var hayabusa = new Hero
-//         {
-//             Name = "Hayabusa",
-//             Hp = 1000,
-//             BaseDamage = 250
-//         };
+        IHitAble hayabusa = new Hero
+        {
+            Name = "Hayabusa",
+            Hp = 1000,
+            BaseDamage = 250
+        };
 
-//         var minion = new Monster
-//         {
-//             Name = "Minion",
-//             Hp = 600,
-//             BaseDamage = 100
-//         };
-//         layla.Attack(minion);
-//         Console.WriteLine($"now the score is {minion.Hp}");
+        IHitAble minion = new Monster
+        {
+            Name = "Minion",
+            Hp = 600,
+            BaseDamage = 100
+        };
+        layla.Attack(minion);
+        Console.WriteLine($"now the score is {minion}");
 
-//         //object interaction
-//         // layla.Attack(hayabusa);
-//         // Console.WriteLine($"now the score is {hayabusa.Hp}");
+        //menggunakan interface
+        layla.Attack(minion);
+        minion.Attack(layla);
+        //object interaction
+        // layla.Attack(hayabusa);
+        // Console.WriteLine($"now the score is {hayabusa.Hp}");
 
-//     }
-// }
+    }
+}
 
 // //ternary operator
 // var number = 10;
