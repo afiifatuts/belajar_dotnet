@@ -53,42 +53,42 @@ public class Hero : IHitAble
     }
 }
 
-public class Program
-{
-    public static void Main(string[] args)
-    {
-        IHitAble layla = new Hero
-        {
-            Name = "Layla",
-            Hp = 1000,
-            BaseDamage = 200
-        };
+// public class Program
+// {
+//     public static void Main(string[] args)
+//     {
+//         IHitAble layla = new Hero
+//         {
+//             Name = "Layla",
+//             Hp = 1000,
+//             BaseDamage = 200
+//         };
 
-        IHitAble hayabusa = new Hero
-        {
-            Name = "Hayabusa",
-            Hp = 1000,
-            BaseDamage = 250
-        };
+//         IHitAble hayabusa = new Hero
+//         {
+//             Name = "Hayabusa",
+//             Hp = 1000,
+//             BaseDamage = 250
+//         };
 
-        IHitAble minion = new Monster
-        {
-            Name = "Minion",
-            Hp = 600,
-            BaseDamage = 100
-        };
-        layla.Attack(minion);
-        Console.WriteLine($"now the score is {minion}");
+//         IHitAble minion = new Monster
+//         {
+//             Name = "Minion",
+//             Hp = 600,
+//             BaseDamage = 100
+//         };
+//         layla.Attack(minion);
+//         Console.WriteLine($"now the score is {minion}");
 
-        //menggunakan interface
-        layla.Attack(minion);
-        minion.Attack(layla);
-        //object interaction
-        // layla.Attack(hayabusa);
-        // Console.WriteLine($"now the score is {hayabusa.Hp}");
+//         //menggunakan interface
+//         layla.Attack(minion);
+//         minion.Attack(layla);
+//         //object interaction
+//         // layla.Attack(hayabusa);
+//         // Console.WriteLine($"now the score is {hayabusa.Hp}");
 
-    }
-}
+//     }
+// }
 
 // //ternary operator
 // var number = 10;
