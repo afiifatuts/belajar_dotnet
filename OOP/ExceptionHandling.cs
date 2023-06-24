@@ -2,7 +2,7 @@ namespace FundamentalUpskilling;
 
 public class ExceptionHandling
 {
-    public static void Main(string[] args)
+    public void Main(string[] args)
     {
         /*root class error di C# itu adalah Exception
         error dibagi menjadi 3
@@ -18,32 +18,42 @@ public class ExceptionHandling
         try, catch, finaly, throw
         */
 
+        // try
+        // {
+        //     try
+        //     {
+        //         var name = FindName();
+        //         System.Console.WriteLine(name);
+        //     }
+        //     catch (System.Exception e)
+        //     {
+
+        //         System.Console.WriteLine(e.Message); ;
+        //     }
+        //     var name2 = FindName();
+        //     System.Console.WriteLine(name2);
+
+        // }
+        // catch (System.Exception e)
+        // {
+
+        //     System.Console.WriteLine(e.Message);
+        // }
+        // finally
+        // {
+        //     System.Console.WriteLine("Ini setelah error");
+        // }
+
+
         try
         {
-            try
-            {
-                var name = FindName();
-                System.Console.WriteLine(name);
-            }
-            catch (System.Exception e)
-            {
-
-                System.Console.WriteLine(e.Message); ;
-            }
-            var name2 = FindName();
-            System.Console.WriteLine(name2);
-
+            FindName();
         }
-        catch (System.Exception e)
+        catch (NotFoundException e)
         {
 
             System.Console.WriteLine(e.Message);
         }
-        finally
-        {
-            System.Console.WriteLine("Ini setelah error");
-        }
-
     }
 
     private void TryCath()
@@ -90,7 +100,16 @@ public class ExceptionHandling
             tempName = name;
         }
 
-        if (tempName is null) throw new Exception("name not found");
+        if (tempName is null) throw new NotFoundException("name not found");
         return tempName;
     }
+}
+
+public class NotFoundException : Exception
+{
+    public NotFoundException(string? message) : base(message)
+    {
+
+    }
+
 }

@@ -13,3 +13,12 @@
 /Users/drika/Documents/tsaani/dot-net/HelloWorld/obj/Debug/net7.0/HelloWorld.pdb
 /Users/drika/Documents/tsaani/dot-net/HelloWorld/obj/Debug/net7.0/HelloWorld.genruntimeconfig.cache
 /Users/drika/Documents/tsaani/dot-net/HelloWorld/obj/Debug/net7.0/ref/HelloWorld.dll
+/Users/drika/Documents/tsaani/dot-net/HelloWorld/bin/Debug/net7.0/Microsoft.Extensions.Logging.Abstractions.dll
+/Users/drika/Documents/tsaani/dot-net/HelloWorld/bin/Debug/net7.0/Npgsql.dll
+/Users/drika/Documents/tsaani/dot-net/HelloWorld/bin/Debug/net7.0/System.Data.SqlClient.dll
+/Users/drika/Documents/tsaani/dot-net/HelloWorld/bin/Debug/net7.0/runtimes/win-arm64/native/sni.dll
+/Users/drika/Documents/tsaani/dot-net/HelloWorld/bin/Debug/net7.0/runtimes/win-x64/native/sni.dll
+/Users/drika/Documents/tsaani/dot-net/HelloWorld/bin/Debug/net7.0/runtimes/win-x86/native/sni.dll
+/Users/drika/Documents/tsaani/dot-net/HelloWorld/bin/Debug/net7.0/runtimes/unix/lib/netcoreapp2.1/System.Data.SqlClient.dll
+/Users/drika/Documents/tsaani/dot-net/HelloWorld/bin/Debug/net7.0/runtimes/win/lib/netcoreapp2.1/System.Data.SqlClient.dll
+/Users/drika/Documents/tsaani/dot-net/HelloWorld/obj/Debug/net7.0/HelloWorld.csproj.CopyComplete
